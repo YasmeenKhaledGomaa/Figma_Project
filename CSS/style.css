@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 4000px;
+}
+.nav{
+    width: 96%;
+    height: 50px;
+    margin: 15px;
+    border: 1px solid silver;  
+    border-radius: 5px;
+}
+.nav #log img{
+    display: inline;
+    float: left;
+    margin-left: 5px;
+}
+.nav ul {
+    list-style-type: none;
+    margin-left: 40%;
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+/* .nav ul li a:hover{
+    color: blue;
+    font-style: italic;
+} */
+#home{
+    color: blue;
+}
+/* #home:hover{
+    color: black;
+} */
+.nav button{
+    color: white;
+    background-color: blue;
+    padding: 3px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+}
+/* .nav button:hover{
+    background-color: white;
+    color: blue;
+    font-style: italic;
+} */
+
+#content{
+    width: 85%;
+    height: 454px;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    margin-left: 100px;
+}
+#content .title{
+    display: inline-block;
+    width: 332px;
+    margin-top: 30px;
+}
+
+#content pre{
+     font-weight: bold;
+}
+
+#btn .btn1,.btn2{
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+#btn .btn1{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+#btn .btn2{
+    color: blue;
+    border-color: black;
+    margin-left: 20px;
+}
+#content .imghero{
+    float: right;
+    margin-top: -20px;
+}
+#about{
+    width: 88%;
+    /* height: 530px; */
+    /* border: 1px solid black; */
+    margin-left: 1.5%;
+}
+#about .text{
+    margin-left: 1.5% ;
+}
+#about .text h2{
+    margin-left: -2% ;
+}
+#about .text h2 p{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(127, 226, 227);
+}
+#about pre{
+    /* font-size: 15px; */
+    font-weight: bold;
+}
+#cards .card{
+    background-color: rgb(210, 206, 196 , 0.5);
+    width: 30%;
+    height: 180px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 6px;
+
+}
+#cards .card img{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#cards .card h4,p{
+    margin-left: 20px;
+}
+#people{
+    width: 90%;
+    height: 200px;
+    margin-left: 3%;
+}
+#people h2 p{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(127, 226, 227);
+}
+#people .comm{
+    border: 1px solid black;
+    width: 500px;
+    height: 130px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#start{
+    width: 90%;
+    height: 1420px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+}
+#start .str h2{
+    margin-left: -3%;
+}
+
+#start .str pre{
+    margin-left: -1%;
+    font-weight: bold;
+}
+
+#start .str h2 p{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(127, 226, 227);
+
+}
+#start .steps{
+    width: 80%;
+    height: 1306px;
+    /* border: 1px solid black; */
+    margin-left: 3%;
+    margin-top: 30px;
+}
+#start .steps .numsteps{
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 13px;
+    text-align: center;
+}
+#start .steps .numsteps h3{
+    padding: 10px;
+    margin-top: 10px;
+}
+#start .steps .details{
+    width: 500px;
+    height: 160px;
+    background-color: rgb(116, 201, 214);
+    border-radius: 30px;
+    margin-left: 13%;
+    margin-top: -43px;
+}
+#start .steps .details h3{
+    margin-left: 6%;
+    padding-top: 15px;
+}
+#start .steps .details p {
+    margin-left: 6%;
+
+}
+#content{
+    height: 380px;
+}
+#content .con img{
+    margin-left: -7%;
+    border-radius: 30px;
+    margin-top: -30px;
+    float: left;
+}
+#content .sign{
+    width: 450px;
+    height: 420px;
+    margin-top: -100px;
+    /* border-radius: 20px; */
+    background-color: black;
+    float: right;
+}
+#content .sign form label{
+    color: white;
+    margin-top: 30px;
+    margin-left: 45px;
+    display: block;
+    font-style: italic;
+}
+#content .sign form input{
+    margin-top: 10px;
+    margin-left: 45px;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 220px;
+    height: 20px;
+    display: block;
+    padding: 6px;
+}
+#content .sign form .mess{
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+
+}
+#content .sign form button{
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 250px;
+    height: 35px;
+    background-color: rgb(46, 105, 147);
+    border-radius: 50px;
+    border: 10px solid rgb(46, 105, 147);
+    font-style: italic;
+    font-size: 18px;
+}
+
+#footer{
+    width: 97%;
+    height: 50px;
+    background-color: gray;
+    border-radius: 20px;
+}
+#footer img{
+    margin-left: 250px;
+}
